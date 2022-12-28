@@ -37,6 +37,9 @@ namespace SampleFormatFunctions
                                                    uint8_t& shiftFirst, uint8_t& shiftSecond, uint32_t& chunkIndexFirst, uint32_t& chunkIndexSecond
                                                    )
    {
+
+      // FIX NEEDED.
+
       //the first part should be straightforward
       shiftFirst = static_cast<uint8_t>( 8 * sizeof(chunk_t) - residualBitIndex - bitWidth/2 );
       chunkIndexFirst = chunkIndex;
